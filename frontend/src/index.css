@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+
+@plugin "daisyui" {
+    themes: all;
+}
+
+@layer base {
+
+    :root,
+    [data-theme],
+    body,
+    html {
+        font-family: 'Poppins' !important;
+    }
+
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    button,
+    input,
+    textarea,
+    span,
+    select {
+        font-family: 'Poppins' !important;
+    }
+}
